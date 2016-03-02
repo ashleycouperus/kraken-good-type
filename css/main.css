@@ -1,0 +1,69 @@
+html {
+  box-sizing: border-box;
+  font-family: "Georgia", cursive;
+}
+
+body {
+  margin: 0 1.5rem;
+}
+
+h1 {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: normal;
+}
+
+.chapter-num {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.colon {
+  color: #259f95;
+}
+
+header {
+  display: block;
+  background-color: #259f95;
+  padding: 1.5em;
+  border-radius: .5em;
+  border-color: #1e7c74;
+  border: 1px solid;
+}
+
+p {
+  font-size: 0.75rem;
+  max-width: 47em;
+  margin: 1.5em;
+  line-height: 1.5;
+}
+
+p:first-line {
+  font-style: italic;
+  color: #1e7c74;
+}
+
+img {
+  width: 100%;
+  max-width: 47em;
+  border-radius: .5em;
+  border-color: #259f95;
+  border: 1px solid;
+}
+
+footer {
+  display: block;
+  background-color: #259f95;
+  padding: 1.5em;
+  border-radius: .5em;
+  border-color: #1e7c74;
+  border: 1px solid;
+  font-size: 0.75em;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
